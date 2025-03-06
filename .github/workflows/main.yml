@@ -32,7 +32,7 @@ jobs:
         with:
           azure-subscription: ${{ env.AZURE_SUBSCRIPTION }}
           action: Deploy
-          service-name: 'jmfdiaz-piggymetrics'
-          app-name: 'jmfdiaz-piggymetrics'
+          service-name: jmfdiaz-piggymetrics
+          app-name: jmfdiaz-piggymetrics
           use-staging-deployment: false
           package: ${{ env.ASC_PACKAGE_PATH }}

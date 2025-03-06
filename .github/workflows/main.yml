@@ -35,4 +35,4 @@ jobs:
           service-name: 'jmfdiaz-piggymetrics'
           app-name: 'jmfdiaz-piggymetrics'
           use-staging-deployment: false
-          package: ${{ env.ASC_PACKAGE_PATH }}/**/*.jar
+          package: ${{ env.ASC_PACKAGE_PATH }}
